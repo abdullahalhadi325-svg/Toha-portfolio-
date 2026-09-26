@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-base: #0A0A0C;
+    --text-primary: #EAEAEA;
+    --text-muted: #8F909A;
+    --accent-gold: #C5A880;
+    --accent-gold-hover: #D4B48F;
+    --surface-dark: #111115;
+    --surface-elevated: #16161B;
+  }
+
+  html {
+    color-scheme: dark;
+    background-color: #0A0A0C;
+    color: #EAEAEA;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #0A0A0C;
+    background-image: 
+      linear-gradient(to right, #ffffff04 1px, transparent 1px),
+      linear-gradient(to bottom, #ffffff04 1px, transparent 1px);
+    background-size: 32px 32px;
+    background-attachment: fixed;
+    color: #EAEAEA;
+    min-height: 100vh;
+  }
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.font-bengali {
+  font-family: 'Noto Sans Bengali', system-ui, -apple-system, sans-serif;
+  line-height: 1.65;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Subdued mathematical precision grid establishing subconscious intellectual competence */
+.bg-mathematical-grid {
+  background-image: 
+    linear-gradient(to right, #ffffff04 1px, transparent 1px),
+    linear-gradient(to bottom, #ffffff04 1px, transparent 1px);
+  background-size: 32px 32px;
+}

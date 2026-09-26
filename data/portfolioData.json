@@ -1,0 +1,1022 @@
+{
+  "meta": {
+    "clientName": {
+      "en": "Toha Al-Mahmudu",
+      "bn": "তোহা আল-মাহমুদু"
+    },
+    "primaryRole": {
+      "en": "Creative Technologist • Researcher • Writer",
+      "bn": "ক্রিয়েটিভ টেকনোলজিস্ট • গবেষক • লেখক"
+    },
+    "location": {
+      "en": "Moulvibazar",
+      "bn": "মৌলভীবাজার"
+    },
+    "version": "1.0.0"
+  },
+  "navigation": {
+    "hero": {
+      "en": "Overview",
+      "bn": "সারসংক্ষেপ"
+    },
+    "about": {
+      "en": "About",
+      "bn": "পরিচিতি"
+    },
+    "expertise": {
+      "en": "Expertise",
+      "bn": "দক্ষতা"
+    },
+    "projects": {
+      "en": "Projects",
+      "bn": "প্রকল্পসমূহ"
+    },
+    "research": {
+      "en": "Research",
+      "bn": "গবেষণা"
+    },
+    "writing": {
+      "en": "Writing",
+      "bn": "লেখালেখি"
+    },
+    "education": {
+      "en": "Education",
+      "bn": "শিক্ষা"
+    },
+    "experience": {
+      "en": "Experience",
+      "bn": "অভিজ্ঞতা"
+    },
+    "achievements": {
+      "en": "Achievements",
+      "bn": "অর্জন"
+    },
+    "vision": {
+      "en": "Vision",
+      "bn": "দূরদৃষ্টি"
+    },
+    "languages": {
+      "en": "Languages",
+      "bn": "ভাষাসমূহ"
+    },
+    "contact": {
+      "en": "Contact",
+      "bn": "যোগাযোগ"
+    }
+  },
+  "hero": {
+    "name": {
+      "en": "Toha Al-Mahmudu",
+      "bn": "তোহা আল-মাহমুদু"
+    },
+    "headline": {
+      "en": "Creative Technologist • Researcher • Writer",
+      "bn": "ক্রিয়েটিভ টেকনোলজিস্ট • গবেষক • লেখক"
+    },
+    "tagline": {
+      "en": "Think Deeper. Create Fearlessly. Shape What’s Next.",
+      "bn": "গভীরভাবে ভাবুন। নির্ভয়ে তৈরি করুন। আগামীর রূপরেখা দিন।"
+    },
+    "summary": {
+      "en": "Working at the intersection of practical software engineering, AI-driven cinematic media, and tech research from Moulvibazar.",
+      "bn": "মৌলভীবাজার থেকে ব্যবহারিক সফটওয়্যার ইঞ্জিনিয়ারিং, কৃত্রিম বুদ্ধিমত্তাভিত্তিক সিনেমাটিক মিডিয়া এবং প্রযুক্তি গবেষণা নিয়ে কাজ করছি।"
+    },
+    "location": {
+      "en": "Moulvibazar",
+      "bn": "মৌলভীবাজার"
+    },
+    "availability": {
+      "en": "Open for New Collaborations & Technical Work",
+      "bn": "নতুন প্রজেক্ট ও যৌথ উদ্যোগের জন্য প্রস্তুত"
+    },
+    "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80",
+    "primaryCta": {
+      "label": {
+        "en": "Explore My Work",
+        "bn": "আমার কাজ দেখুন"
+      },
+      "url": "#projects",
+      "isExternal": false
+    },
+    "secondaryCta": {
+      "label": {
+        "en": "View Resume",
+        "bn": "জীবনবৃত্তান্ত দেখুন"
+      },
+      "url": "#experience",
+      "isExternal": false
+    }
+  },
+  "about": {
+    "title": {
+      "en": "About & Approach",
+      "bn": "পরিচিতি ও কাজের ধরণ"
+    },
+    "subtitle": {
+      "en": "Building practical technology and producing clear, high-impact digital content.",
+      "bn": "বাস্তবমুখী প্রযুক্তি তৈরি এবং কার্যকর ও মননশীল ডিজিটাল কাজ নির্মাণ।"
+    },
+    "bioParagraphs": [
+      {
+        "en": "I am Toha Al-Mahmudu, based in Moulvibazar. I build modern software, direct AI-powered cinematic content, and write about the future of technology and media. My focus is on turning ideas into clean code and engaging visual stories.",
+        "bn": "আমি তোহা আল-মাহমুদু, বসবাস মৌলভীবাজারে। আমি আধুনিক সফটওয়্যার তৈরি করি, এআই-ভিত্তিক সিনেমাটিক মিডিয়া পরিচালনা করি এবং প্রযুক্তি ও মিডিয়ার ভবিষ্যৎ নিয়ে নিয়মিত লিখি। আমার লক্ষ্য যেকোনো পরিকল্পনাকে গোছানো কোড এবং শক্তিশালী ভিজ্যুয়াল রূপ দেওয়া।"
+      },
+      {
+        "en": "Rather than relying on trends or buzzwords, I focus on what works: solid fundamentals, disciplined execution, and clear communication across code, video, and writing.",
+        "bn": "অপ্রয়োজনীয় জটিলতা বা ট্রেন্ডের পেছনে না ছুটে আমি বাস্তব কার্যকারিতার ওপর জোর দিই—মজবুত ভিত্তি, কাজের শৃঙ্খলা এবং কোড, ভিডিও ও লেখার মধ্য দিয়ে স্পষ্ট ও সাবলীল উপস্থাপনা।"
+      }
+    ],
+    "philosophy": {
+      "en": "Build with intent, communicate with clarity, and solve real problems without overcomplicating things.",
+      "bn": "উদ্দেশ্য স্পষ্ট রেখে কাজ করুন, সাবলীলভাবে কথা বলুন এবং কোনো কিছুকে অহেতুক জটিল না করে আসল সমস্যার সমাধান করুন।"
+    },
+    "coreValues": [
+      {
+        "title": {
+          "en": "Disciplined Execution",
+          "bn": "নিয়মতান্ত্রিক বাস্তবায়ন"
+        },
+        "description": {
+          "en": "Consistent delivery, clean architecture, and reliable performance over empty theories.",
+          "bn": "কেবল কথার চেয়ে নিয়মিত ফলাফল, পরিচ্ছন্ন আর্কিটেকচার এবং নির্ভরযোগ্য কাজের প্রতি নিষ্ঠা।"
+        },
+        "icon": "compass"
+      },
+      {
+        "title": {
+          "en": "Hands-on Craftsmanship",
+          "bn": "কাজের গভীর দক্ষতা"
+        },
+        "description": {
+          "en": "Mastering modern web tools, video production pipelines, and generative AI models from the ground up.",
+          "bn": "আধুনিক ওয়েব টুলস, ভিডিও প্রযোজনা এবং জেনারেটিভ এআই মডেলের কার্যকর ব্যবহার ও নিয়ন্ত্রণ।"
+        },
+        "icon": "sparkles"
+      },
+      {
+        "title": {
+          "en": "Authentic Voice",
+          "bn": "স্বকীয় ও স্পষ্ট কণ্ঠ"
+        },
+        "description": {
+          "en": "Communicating directly and honestly in both English and natural Bengali.",
+          "bn": "ইংরেজি এবং প্রাঞ্জল বাংলা—উভয় ভাষাতেই স্পষ্ট, সৎ ও সরাসরি যোগাযোগ।"
+        },
+        "icon": "shield"
+      }
+    ],
+    "quickFacts": [
+      {
+        "label": {
+          "en": "Location",
+          "bn": "অবস্থান"
+        },
+        "value": {
+          "en": "Moulvibazar, Bangladesh",
+          "bn": "মৌলভীবাজার, বাংলাদেশ"
+        }
+      },
+      {
+        "label": {
+          "en": "Core Stack",
+          "bn": "মূল দক্ষতা"
+        },
+        "value": {
+          "en": "TypeScript • AI Media • Systems",
+          "bn": "টাইপস্ক্রিপ্ট • এআই মিডিয়া • সিস্টেমস"
+        }
+      },
+      {
+        "label": {
+          "en": "Media Impact",
+          "bn": "মিডিয়া প্রভাব"
+        },
+        "value": {
+          "en": "1M+ Views • 8,500+ Subscribers",
+          "bn": "১০ লক্ষ+ ভিউ • ৮,৫০০+ সাবস্ক্রাইবার"
+        }
+      }
+    ]
+  },
+  "expertise": {
+    "title": {
+      "en": "Areas of Expertise",
+      "bn": "দক্ষতার ক্ষেত্রসমূহ"
+    },
+    "subtitle": {
+      "en": "Focused skillsets across software development, AI tooling, media creation, and system security.",
+      "bn": "সফটওয়্যার ডেভেলপমেন্ট, এআই টুলস, কনটেন্ট নির্মাণ এবং সিস্টেম সুরক্ষার সমন্বিত দক্ষতা।"
+    },
+    "categories": {
+      "ai": {
+        "title": {
+          "en": "Artificial Intelligence",
+          "bn": "কৃত্রিম বুদ্ধিমত্তা"
+        },
+        "description": {
+          "en": "Leveraging generative models, prompt engineering, and automated workflows for content and software.",
+          "bn": "কনটেন্ট ও সফটওয়্যার তৈরিতে জেনারেটিভ মডেল, প্রম্পট ইঞ্জিনিয়ারিং এবং স্বয়ংক্রিয় প্রক্রিয়ার প্রয়োগ।"
+        },
+        "icon": "brain",
+        "skills": [
+          {
+            "name": {
+              "en": "AI Cinematic Production",
+              "bn": "এআই সিনেমাটিক প্রযোজনা"
+            },
+            "level": {
+              "en": "Advanced",
+              "bn": "উন্নত"
+            },
+            "description": {
+              "en": "Generating and directing high-fidelity video scenes, voice synthesis, and visual continuity using generative models.",
+              "bn": "ভিজ্যুয়াল কনটেন্ট নির্মাণে জেনারেটিভ ভিডিও মডেল, ভয়েস সিন্থেসিস ও নান্দনিক সিনেমাটোগ্রাফির ব্যবহার।"
+            }
+          },
+          {
+            "name": {
+              "en": "AI Workflow Automation",
+              "bn": "এআই নির্ভর অটোমেশন"
+            },
+            "level": {
+              "en": "Proficient",
+              "bn": "দক্ষ"
+            },
+            "description": {
+              "en": "Integrating LLM APIs and prompt structures into web applications and creative processes.",
+              "bn": "ওয়েব অ্যাপ্লিকেশন ও সৃজনশীল কাজে এলএলএম এপিআই এবং প্রম্পট কাঠামোর কার্যকর সংযোগ।"
+            }
+          }
+        ]
+      },
+      "digitalTech": {
+        "title": {
+          "en": "Digital Technology",
+          "bn": "ডিজিটাল প্রযুক্তি"
+        },
+        "description": {
+          "en": "Building responsive, fast, and maintainable web applications with modern frontend frameworks.",
+          "bn": "আধুনিক ফ্রন্টএন্ড ফ্রেমওয়ার্ক দিয়ে দ্রুতগতির, রেসপনসিভ ও নির্ভরযোগ্য ওয়েব অ্যাপ্লিকেশন তৈরি।"
+        },
+        "icon": "code",
+        "skills": [
+          {
+            "name": {
+              "en": "Frontend Engineering",
+              "bn": "ফ্রন্টএন্ড ইঞ্জিনিয়ারিং"
+            },
+            "level": {
+              "en": "Advanced",
+              "bn": "উন্নত"
+            },
+            "description": {
+              "en": "Next.js, React, TypeScript, and Tailwind CSS for production-grade user interfaces.",
+              "bn": "নেক্সট জেএস, রিঅ্যাক্ট, টাইপস্ক্রিপ্ট ও টেলউইন্ড সিএসএস দিয়ে প্রফেশনাল ইউজার ইন্টারফেস তৈরি।"
+            }
+          },
+          {
+            "name": {
+              "en": "Web Architecture & APIs",
+              "bn": "ওয়েব আর্কিটেকচার ও এপিআই"
+            },
+            "level": {
+              "en": "Proficient",
+              "bn": "দক্ষ"
+            },
+            "description": {
+              "en": "RESTful endpoints, data handling, and clean component structures.",
+              "bn": "রেস্টফুল এপিআই, ডেটা প্রসেসিং এবং গোছানো কম্পোনেন্ট ভিত্তিক সফটওয়্যার কাঠামো।"
+            }
+          }
+        ]
+      },
+      "media": {
+        "title": {
+          "en": "Media & Video Production",
+          "bn": "মিডিয়া ও ভিডিও প্রযোজনা"
+        },
+        "description": {
+          "en": "Creating compelling video essays, scripting, editing, and building an engaged online audience.",
+          "bn": "ভিডিও রচনা নির্মাণ, চিত্রনাট্য লেখা, ভিডিও এডিটিং এবং সক্রিয় দর্শক সমাজ গড়ে তোলা।"
+        },
+        "icon": "film",
+        "skills": [
+          {
+            "name": {
+              "en": "Video Editing & Storyboarding",
+              "bn": "ভিডিও এডিটিং ও স্টোরিবোর্ডিং"
+            },
+            "level": {
+              "en": "Advanced",
+              "bn": "উন্নত"
+            },
+            "description": {
+              "en": "Pacing, narrative structure, color correction, and audio mastering for YouTube.",
+              "bn": "ইউটিউবের উপযোগী আকর্ষণীয় পেসিং, বর্ণনামূলক গল্পবলন, কালার গ্রেডিং ও অডিও মাস্টারিং।"
+            }
+          },
+          {
+            "name": {
+              "en": "Audience Growth & Distribution",
+              "bn": "দর্শকের সম্পৃক্ততা ও সম্প্রচার"
+            },
+            "level": {
+              "en": "Proven",
+              "bn": "প্রমাণিত"
+            },
+            "description": {
+              "en": "Demonstrated track record of achieving 1M+ views and 8,500+ subscribers organically in 22 days.",
+              "bn": "মাত্র ২২ দিনে ১০ লক্ষের বেশি ভিউ এবং ৮,৫০০-এর বেশি নিয়মিত সাবস্ক্রাইবার অর্জনের অভিজ্ঞতা।"
+            }
+          }
+        ]
+      },
+      "cyber": {
+        "title": {
+          "en": "Cybersecurity & Systems Safety",
+          "bn": "সাইবার নিরাপত্তা ও সিস্টেম সুরক্ষা"
+        },
+        "description": {
+          "en": "Practical digital hygiene, secure coding patterns, and data privacy principles.",
+          "bn": "বাস্তবসম্মত ডিজিটাল সুরক্ষা, নিরাপদ কোডিং পদ্ধতি এবং ডেটা সুরক্ষার নীতিমালা।"
+        },
+        "icon": "shield-check",
+        "skills": [
+          {
+            "name": {
+              "en": "Account & Infrastructure Security",
+              "bn": "অ্যাকাউন্ট ও অবকাঠামোগত নিরাপত্তা"
+            },
+            "level": {
+              "en": "Proficient",
+              "bn": "দক্ষ"
+            },
+            "description": {
+              "en": "Multi-factor authentication, key management, and digital identity defense.",
+              "bn": "মাল্টি-ফ্যাক্টর প্রমাণীকরণ, নিরাপদ কী ম্যানেজমেন্ট এবং ডিজিটাল তথ্যের সুরক্ষা।"
+            }
+          },
+          {
+            "name": {
+              "en": "Secure Web Fundamentals",
+              "bn": "নিরাপদ ওয়েব বেসিকস"
+            },
+            "level": {
+              "en": "Intermediate",
+              "bn": "মধ্যবর্তী"
+            },
+            "description": {
+              "en": "Input sanitization, secure headers, and avoiding common frontend vulnerabilities.",
+              "bn": "ইনপুট ভ্যালিডেশন, সিকিউর হেডার্স এবং ফ্রন্টএন্ডের সাধারণ নিরাপত্তা ঝুঁকি প্রতিরোধ।"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": {
+      "en": "Featured Projects",
+      "bn": "নির্বাচিত প্রকল্পসমূহ"
+    },
+    "subtitle": {
+      "en": "Hands-on projects in software development, AI cinematic storytelling, and digital tooling.",
+      "bn": "সফটওয়্যার তৈরি, এআই সিনেমাটিক মিডিয়া এবং ডিজিটাল টুলের বাস্তব প্রকল্পসমূহ।"
+    },
+    "items": [
+      {
+        "id": "vyrox",
+        "title": {
+          "en": "VYROX",
+          "bn": "ভাইরক্স (VYROX)"
+        },
+        "subtitle": {
+          "en": "AI Cinematic Content Project",
+          "bn": "এআই সিনেমাটিক কনটেন্ট প্রজেক্ট"
+        },
+        "description": {
+          "en": "An AI-powered cinematic content project designed to produce high-impact visual stories and technical explorations. Combines advanced generative video models, sound design, and sharp scripting to engage a broad audience.",
+          "bn": "একটি শক্তিশালী এআই-নির্ভর সিনেমাটিক কনটেন্ট প্রকল্প, যার মাধ্যমে আকর্ষণীয় ভিজ্যুয়াল গল্প ও প্রযুক্তিগত বিষয় তুলে ধরা হয়। এতে জেনারেটিভ ভিডিও মডেল, নিখুঁত সাউন্ড ডিজাইন এবং গোছানো চিত্রনাট্যের সমন্বয়ে কন্টেন্ট তৈরি করা হয়।"
+        },
+        "featured": true,
+        "category": {
+          "en": "AI Media & Cinematic Content",
+          "bn": "এআই মিডিয়া ও সিনেমাটিক কনটেন্ট"
+        },
+        "role": {
+          "en": "Creator & Lead Producer",
+          "bn": "নির্মাতা ও প্রধান প্রযোজক"
+        },
+        "status": {
+          "en": "Active & Publishing",
+          "bn": "সক্রিয় ও চলমান"
+        },
+        "youtubeEmbedId": "aaFI0H53C64bezQI",
+        "facebookUrl": "https://www.facebook.com/share/1BrATf9hJg/",
+        "technologies": [
+          {
+            "en": "Generative AI Video",
+            "bn": "জেনারেটিভ এআই ভিডিও"
+          },
+          {
+            "en": "Video Editing & Sound",
+            "bn": "ভিডিও এডিটিং ও সাউন্ড"
+          },
+          {
+            "en": "Scriptwriting",
+            "bn": "চিত্রনাট্য লিখন"
+          },
+          {
+            "en": "YouTube Production",
+            "bn": "ইউটিউব প্রযোজনা"
+          }
+        ]
+      },
+      {
+        "id": "content-distribution-engine",
+        "title": {
+          "en": "Digital Publishing & Content Pipeline",
+          "bn": "ডিজিটাল কনটেন্ট পাবলিশিং পাইপলাইন"
+        },
+        "subtitle": {
+          "en": "Automated Content Workflow",
+          "bn": "স্বয়ংক্রিয় কনটেন্ট প্রস্তুতকরণ প্রক্রিয়া"
+        },
+        "description": {
+          "en": "A structured publishing setup for planning, producing, and distributing bilingual tech articles and video scripts across digital channels.",
+          "bn": "ডিজিটাল মাধ্যমে দ্বিভাষিক প্রযুক্তি নিবন্ধ ও ভিডিও চিত্রনাট্য পরিকল্পনা, নির্মাণ এবং প্রকাশের জন্য একটি গোছানো কার্যপদ্ধতি।"
+        },
+        "featured": false,
+        "category": {
+          "en": "Workflow & Tools",
+          "bn": "কাজের টুলস ও পদ্ধতি"
+        },
+        "role": {
+          "en": "Developer & Writer",
+          "bn": "ডেভেলপার ও লেখক"
+        },
+        "status": {
+          "en": "In Use Daily",
+          "bn": "প্রতিদিনের ব্যবহারে সক্রিয়"
+        },
+        "technologies": [
+          {
+            "en": "Workflow Automation",
+            "bn": "অটোমেশন"
+          },
+          {
+            "en": "Markdown Publishing",
+            "bn": "মার্কডাউন প্রকাশনা"
+          },
+          {
+            "en": "Bilingual Editorial",
+            "bn": "দ্বিভাষিক সম্পাদনা"
+          }
+        ]
+      },
+      {
+        "id": "tech-portfolio-system",
+        "title": {
+          "en": "Modern Web Portfolio System",
+          "bn": "মডার্ন ওয়েব পোর্টফোলিও সিস্টেম"
+        },
+        "subtitle": {
+          "en": "Clean Bilingual Architecture",
+          "bn": "পরিচ্ছন্ন দ্বিভাষিক আর্কিটেকচার"
+        },
+        "description": {
+          "en": "A production-grade Next.js web application built with TypeScript, Tailwind CSS, and full English/Bengali parity with zero third-party database dependencies.",
+          "bn": "টাইপস্ক্রিপ্ট ও টেলউইন্ড সিএসএস দিয়ে তৈরি একটি দ্রুতগতির নেক্সট জেএস ওয়েবসাইট, যা কোনো বাইরের ডাটাবেজ ছাড়াই সম্পূর্ণ বাংলা ও ইংরেজি সমর্থন করে।"
+        },
+        "featured": false,
+        "category": {
+          "en": "Web Development",
+          "bn": "ওয়েব ডেভেলপমেন্ট"
+        },
+        "role": {
+          "en": "Frontend Architect",
+          "bn": "ফ্রন্টএন্ড আর্কিটেক্ট"
+        },
+        "status": {
+          "en": "Production",
+          "bn": "লাইভ সক্রিয়"
+        },
+        "technologies": [
+          {
+            "en": "Next.js 15",
+            "bn": "নেক্সট জেএস ১৫"
+          },
+          {
+            "en": "TypeScript",
+            "bn": "টাইপস্ক্রিপ্ট"
+          },
+          {
+            "en": "Tailwind CSS",
+            "bn": "টেলউইন্ড সিএসএস"
+          }
+        ]
+      }
+    ]
+  },
+  "research": {
+    "title": {
+      "en": "Research & Practical Studies",
+      "bn": "গবেষণা ও প্রায়োগিক বিশ্লেষণ"
+    },
+    "subtitle": {
+      "en": "Investigating how real creators and developers can make practical use of AI tools.",
+      "bn": "কনটেন্ট ক্রিয়েটর ও ডেভেলপাররা কীভাবে বাস্তব কাজে এআই টুল ব্যবহার করতে পারে তার বাস্তবসম্মত নিরীক্ষা।"
+    },
+    "items": [
+      {
+        "id": "generative-media-workflows",
+        "title": {
+          "en": "Practical Pipelines for AI-Driven Video Production",
+          "bn": "এআই চালিত ভিডিও প্রযোজনার বাস্তবমুখী কার্যপদ্ধতি"
+        },
+        "field": {
+          "en": "AI Media & Video Tools",
+          "bn": "এআই মিডিয়া ও ভিডিও টুলস"
+        },
+        "status": {
+          "en": "Active Fieldwork",
+          "bn": "বাস্তব নিরীক্ষা চলমান"
+        },
+        "summary": {
+          "en": "Testing generative video models, voice cloning tools, and sound design software in real production environments to measure turnaround speed and visual quality.",
+          "bn": "ভিডিও নির্মাণ প্রক্রিয়ায় বিভিন্ন জেনারেটিভ মডেল, ভয়েস ক্লোনিং ও সাউন্ড টুলের কার্যকারিতা পরীক্ষা করে দ্রুত ও মানসম্পন্ন কাজ নিশ্চিত করার গবেষণা।"
+        },
+        "keyFindings": [
+          {
+            "en": "Careful storyboard planning saves hours of video regeneration.",
+            "bn": "ভিডিও তৈরির আগেই চিত্রনাট্য ও স্টোরিবোর্ড প্রস্তুত রাখলে কাজের সময় অনেক বেঁচে যায়।"
+          },
+          {
+            "en": "Human sound design and pacing make AI visuals feel natural and engaging.",
+            "bn": "সঠিক সাউন্ড ডিজাইন ও পেসিং এআই-এর ভিজ্যুয়ালকে অনেক বেশি আকর্ষণীয় ও বিশ্বাসযোগ্য করে তোলে।"
+          }
+        ]
+      },
+      {
+        "id": "regional-tech-adoption",
+        "title": {
+          "en": "Building Tech Skills and Online Growth from Regional Hubs",
+          "bn": "আঞ্চলিক অবস্থান থেকে প্রযুক্তি দক্ষতা ও অনলাইন উপস্থিতি গড়ে তোলা"
+        },
+        "field": {
+          "en": "Digital Growth & Technology",
+          "bn": "ডিজিটাল প্রবৃদ্ধি ও প্রযুক্তি"
+        },
+        "status": {
+          "en": "Documented Case Study",
+          "bn": "বাস্তব অভিজ্ঞতার কেস স্টাডি"
+        },
+        "summary": {
+          "en": "Documenting how creators from regions like Moulvibazar can use the internet, open-source software, and AI to compete and connect on a global scale.",
+          "bn": "মৌলভীবাজারের মতো জেলা শহর থেকেও ইন্টারনেটের শক্তি, ওপেন-সোর্স সফটওয়্যার এবং এআই ব্যবহারের মাধ্যমে কীভাবে আন্তর্জাতিক মানের দক্ষতা অর্জন করা যায় তার বিশ্লেষণ।"
+        }
+      }
+    ]
+  },
+  "writing": {
+    "title": {
+      "en": "Articles & Case Studies",
+      "bn": "প্রবন্ধ ও কেস স্টাডি"
+    },
+    "subtitle": {
+      "en": "Clear, practical articles on software, AI production, and building audience momentum.",
+      "bn": "সফটওয়্যার, এআই প্রোডাকশন এবং দর্শক সম্পৃক্ততার ওপর সহজ ও কাজের লেখা।"
+    },
+    "articles": [
+      {
+        "id": "grow-youtube-with-ai",
+        "title": {
+          "en": "How We Hit 1M+ Views in 22 Days with AI-Enhanced Storytelling",
+          "bn": "এআই গল্পের জোরে মাত্র ২২ দিনে কীভাবে ১০ লক্ষাধিক ভিউ অর্জন করা সম্ভব হলো"
+        },
+        "topic": {
+          "en": "YouTube Growth & AI Video",
+          "bn": "ইউটিউব গ্রোথ ও এআই ভিডিও"
+        },
+        "platform": {
+          "en": "Case Study",
+          "bn": "কেস স্টাডি"
+        },
+        "summary": {
+          "en": "A breakdown of the exact scripting, editing, and thumbnail strategies behind reaching one million views and 8,500 subscribers in just 22 days.",
+          "bn": "মাত্র ২২ দিনে ১০ লক্ষ ভিউ ও ৮,৫০০ সাবস্ক্রাইবার অর্জনের পেছনের চিত্রনাট্য, সম্পাদনা ও থাম্বনেইল তৈরির বাস্তব কৌশল।"
+        },
+        "readingTime": {
+          "en": "5 min read",
+          "bn": "৫ মিনিট পাঠ"
+        }
+      },
+      {
+        "id": "clean-code-and-ai",
+        "title": {
+          "en": "Using AI as an Assistant, Not a Crutch: A Developer’s Perspective",
+          "bn": "এআই হোক কাজের সহকারী, অন্ধ নির্ভরতা নয়: একজন ডেভেলপারের দৃষ্টিভঙ্গি"
+        },
+        "topic": {
+          "en": "Software Development",
+          "bn": "সফটওয়্যার ডেভেলপমেন্ট"
+        },
+        "platform": {
+          "en": "Tech Reflections",
+          "bn": "প্রযুক্তি বিষয়ক ভাবনা"
+        },
+        "summary": {
+          "en": "Why strong foundational programming knowledge is more important than ever when working with AI code generation tools.",
+          "bn": "এআই কোড জেনারেশন টুলের যুগে কেন নিজের মৌলিক প্রোগ্রামিং জ্ঞান জানা আগের চেয়েও বেশি জরুরি।"
+        },
+        "readingTime": {
+          "en": "4 min read",
+          "bn": "৪ মিনিট পাঠ"
+        }
+      }
+    ]
+  },
+  "education": {
+    "title": {
+      "en": "Education & Academic Foundations",
+      "bn": "শিক্ষা ও অ্যাকাডেমিক ভিত্তি"
+    },
+    "subtitle": {
+      "en": "Authentic academic background and foundational learning.",
+      "bn": "প্রকৃত অ্যাকাডেমিক পটভূমি ও ভিত্তিমূলক শিক্ষা।"
+    },
+    "items": [
+      {
+        "id": "bagha-madrasa-hifz",
+        "degree": {
+          "en": "Hifz al-Qur’an",
+          "bn": "হিফযুল কুরআন"
+        },
+        "institution": {
+          "en": "Sylhet Bagha Madrasa (Hifz al-Qur’an)",
+          "bn": "সিলেট বাঘা মাদ্রাসা (হিফযুল কুরআন)"
+        },
+        "location": {
+          "en": "Sylhet",
+          "bn": "সিলেট"
+        },
+        "period": {
+          "en": "Completed",
+          "bn": "সম্পন্ন"
+        },
+        "details": {
+          "en": "Completed full memorization of the Holy Qur'an with rigorous discipline, focus, and precision.",
+          "bn": "পরিপূর্ণ আত্মনিয়োগ, গভীর মনোযোগ ও শৃঙ্খলার সাথে পবিত্র কুরআনুল কারীমের সম্পূর্ণ হিফয সম্পন্ন।"
+        }
+      },
+      {
+        "id": "darul-uloom-moulvibazar",
+        "degree": {
+          "en": "Advanced Islamic Studies",
+          "bn": "উচ্চতর ইসলামিক স্টাডিজ"
+        },
+        "institution": {
+          "en": "Moulvibazar Darul Uloom Title Madrasa",
+          "bn": "মৌলভীবাজার দারুল উলুম টাইটেল মাদ্রাসা"
+        },
+        "location": {
+          "en": "Moulvibazar",
+          "bn": "মৌলভীবাজার"
+        },
+        "period": {
+          "en": "Title Studies",
+          "bn": "টাইটেল পর্যায়"
+        },
+        "details": {
+          "en": "Focused on classical texts, Arabic language, jurisprudence, and analytical interpretation.",
+          "bn": "ধ্রুপদী গ্রন্থাবলী, আরবি ভাষা, ফিকহ ও বিশ্লেষণমূলক পাঠে বিশেষ মনোযোগ।"
+        }
+      },
+      {
+        "id": "malliksarai-fazil",
+        "degree": {
+          "en": "Secondary School Certificate (SSC)",
+          "bn": "এসএসসি (SSC সমমান)"
+        },
+        "institution": {
+          "en": "Uttarmunai Malliksarai Fazil Madrasa (SSC)",
+          "bn": "উত্তরমুনায়ী মল্লিকসরাই ফাজিল মাদ্রাসা (এসএসসি)"
+        },
+        "location": {
+          "en": "Moulvibazar",
+          "bn": "মৌলভীবাজার"
+        },
+        "period": {
+          "en": "SSC",
+          "bn": "দাখিল / এসএসসি"
+        },
+        "details": {
+          "en": "Completed secondary education with high academic standing across general and foundational subjects.",
+          "bn": "সাধারণ বিজ্ঞান ও মানবিক বিষয়ের সমন্বয়ে কৃতিত্বপূর্ণ ফলাফলের মাধ্যমে মাধ্যমিক শিক্ষা সম্পন্ন।"
+        }
+      }
+    ]
+  },
+  "experience": {
+    "title": {
+      "en": "Experience & Initiatives",
+      "bn": "অভিজ্ঞতা ও উদ্যোগসমূহ"
+    },
+    "subtitle": {
+      "en": "Hands-on work building media projects, managing web applications, and writing technical content.",
+      "bn": "মিডিয়া প্রজেক্ট তৈরি, ওয়েব অ্যাপ্লিকেশন উন্নয়ন এবং প্রযুক্তি বিষয়ক কনটেন্ট পরিচালনার বাস্তব অভিজ্ঞতা।"
+    },
+    "items": [
+      {
+        "id": "exp-vyrox",
+        "role": {
+          "en": "Lead Creator & Producer",
+          "bn": "প্রধান নির্মাতা ও প্রযোজক"
+        },
+        "organization": {
+          "en": "VYROX (AI Cinematic Media)",
+          "bn": "ভাইরক্স (VYROX - এআই সিনেমাটিক মিডিয়া)"
+        },
+        "location": {
+          "en": "Moulvibazar",
+          "bn": "মৌলভীবাজার"
+        },
+        "period": {
+          "en": "Active Project",
+          "bn": "বর্তমান সক্রিয় উদ্যোগ"
+        },
+        "responsibilities": [
+          {
+            "en": "Directing and producing AI cinematic content from concept to final cut.",
+            "bn": "পরিকল্পনা থেকে শুরু করে চূড়ান্ত ভিডিও এডিটিং পর্যন্ত পুরো এআই সিনেমাটিক কন্টেন্টের প্রযোজনা পরিচালনা।"
+          },
+          {
+            "en": "Achieved 1M+ views and an active community of 8,500+ subscribers within 22 days of launch.",
+            "bn": "মাত্র ২২ দিনের মধ্যে ১০ লক্ষাধিক ভিউ এবং ৮,৫০০-এর বেশি সক্রিয় সাবস্ক্রাইবারের কমিউনিটি তৈরি।"
+          }
+        ]
+      },
+      {
+        "id": "exp-dev-researcher",
+        "role": {
+          "en": "Frontend Developer & Tech Writer",
+          "bn": "ফ্রন্টএন্ড ডেভেলপার ও প্রযুক্তি লেখক"
+        },
+        "organization": {
+          "en": "Independent Practice",
+          "bn": "স্বতন্ত্র প্র্যাকটিস"
+        },
+        "location": {
+          "en": "Moulvibazar",
+          "bn": "মৌলভীবাজার"
+        },
+        "period": {
+          "en": "Ongoing",
+          "bn": "চলমান"
+        },
+        "responsibilities": [
+          {
+            "en": "Building modern frontend applications using Next.js, React, TypeScript, and Tailwind CSS.",
+            "bn": "নেক্সট জেএস, রিঅ্যাক্ট, টাইপস্ক্রিপ্ট ও টেলউইন্ড সিএসএস দিয়ে আধুনিক ওয়েব অ্যাপ্লিকেশন নির্মাণ।"
+          },
+          {
+            "en": "Writing practical articles on AI video tools, programming best practices, and audience growth.",
+            "bn": "এআই ভিডিও টুলস, ভালো কোডিং অভ্যাস ও ডিজিটাল সম্প্রচার নিয়ে তথ্যবহুল ও সহজবোধ্য লেখালেখি।"
+          }
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "title": {
+      "en": "Achievements & Milestones",
+      "bn": "বাস্তব অর্জন ও মাইলফলক"
+    },
+    "subtitle": {
+      "en": "Verified facts from academic history and digital media success.",
+      "bn": "অ্যাকাডেমিক ইতিহাস ও ডিজিটাল মিডিয়ার বাস্তব ও যাচাইকৃত অর্জনসমূহ।"
+    },
+    "items": [
+      {
+        "id": "achieve-views-22-days",
+        "title": {
+          "en": "1M+ views in 22 days",
+          "bn": "২২ দিনে ১০ লক্ষাধিক (1M+) ভিউ"
+        },
+        "issuer": {
+          "en": "Digital Media Milestone",
+          "bn": "ডিজিটাল মিডিয়া মাইলফলক"
+        },
+        "description": {
+          "en": "Achieved over one million video views in just 22 days through strategic AI cinematic storytelling and high-quality production.",
+          "bn": "এআই সিনেমাটিক গল্প ও নিখুঁত ভিডিও প্রযোজনার মাধ্যমে মাত্র ২২ দিনে ১০ লক্ষাধিক মানুষের কাছে পৌঁছানোর মাইলফলক।"
+        }
+      },
+      {
+        "id": "achieve-subscribers",
+        "title": {
+          "en": "8,500 subscribers",
+          "bn": "৮,৫০০ সাবস্ক্রাইবার"
+        },
+        "issuer": {
+          "en": "Channel Community Growth",
+          "bn": "ইউটিউব কমিউনিটি অর্জন"
+        },
+        "description": {
+          "en": "Built a loyal, organically engaged audience of 8,500+ subscribers within the first few weeks of consistent publishing.",
+          "bn": "ভিডিও প্রকাশের শুরুর কয়েক সপ্তাহের মধ্যেই অর্গানিক উপায়ে ৮,৫০০-এর বেশি নিয়মিত দর্শকের সক্রিয় কমিউনিটি তৈরি।"
+        }
+      },
+      {
+        "id": "achieve-hifz",
+        "title": {
+          "en": "Completed Hifz al-Qur’an",
+          "bn": "হিফযুল কুরআন সম্পন্ন"
+        },
+        "issuer": {
+          "en": "Sylhet Bagha Madrasa",
+          "bn": "সিলেট বাঘা মাদ্রাসা"
+        },
+        "description": {
+          "en": "Successfully memorized the entire Holy Qur'an, instilling lifelong discipline, memory endurance, and mental clarity.",
+          "bn": "পবিত্র কুরআনুল কারীমের সম্পূর্ণ হিফয সম্পন্ন, যা চিন্তা ও স্মৃতিশক্তির সুদৃঢ় শৃঙ্খলা তৈরি করেছে।"
+        }
+      },
+      {
+        "id": "achieve-academic-rank",
+        "title": {
+          "en": "Frequently achieved top-three/high positions in examinations",
+          "bn": "পরীক্ষায় নিয়মিত প্রথম তিন বা শীর্ষ স্থান অর্জন"
+        },
+        "issuer": {
+          "en": "Academic Examinations",
+          "bn": "অ্যাকাডেমিক মূল্যায়ন ও পরীক্ষা"
+        },
+        "description": {
+          "en": "Consistently ranked in the top-three and held high academic positions throughout institutional examinations.",
+          "bn": "শিক্ষা জীবনের প্রাতিষ্ঠানিক বিভিন্ন পরীক্ষায় ধারাবাহিকভাবে প্রথম তিন এবং শীর্ষ ফলাফল ধরে রাখার গৌরব।"
+        }
+      }
+    ]
+  },
+  "vision": {
+    "title": {
+      "en": "Vision & Goals",
+      "bn": "লক্ষ্য ও ভবিষ্যৎ ভাবনা"
+    },
+    "statement": {
+      "en": "To build practical, world-class technology and compelling cinematic content directly from Moulvibazar, proving that geographic location is no barrier to excellence.",
+      "bn": "মৌলভীবাজার থেকেই বিশ্বমানের ব্যবহারিক প্রযুক্তি এবং আকর্ষণীয় সিনেমাটিক কনটেন্ট তৈরি করা—এবং প্রমাণ করা যে সততা ও মেধার সামনে কোনো ভৌগোলিক দূরত্ব বাধা হতে পারে না।"
+    },
+    "quote": {
+      "en": "Think Deeper. Create Fearlessly. Shape What’s Next.",
+      "bn": "গভীরভাবে ভাবুন। নির্ভয়ে তৈরি করুন। আগামীর রূপরেখা দিন।"
+    },
+    "pillars": [
+      {
+        "title": {
+          "en": "Practical Craft",
+          "bn": "বাস্তবমুখী দক্ষতা"
+        },
+        "description": {
+          "en": "Focusing on clean code and reliable products rather than hollow buzzwords.",
+          "bn": "অপ্রয়োজনীয় গালভরা কথার পরিবর্তে কাজের মান এবং নির্ভরযোগ্য ফলাফলের প্রতি গুরুত্ব।"
+        }
+      },
+      {
+        "title": {
+          "en": "Storytelling with Impact",
+          "bn": "কার্যকর গল্পবলন"
+        },
+        "description": {
+          "en": "Using video and writing to explain technical ideas clearly and entertain honestly.",
+          "bn": "ভিডিও এবং লেখার মাধ্যমে জটিল বিষয়কে সহজভাবে মানুষের সামনে তুলে ধরা।"
+        }
+      },
+      {
+        "title": {
+          "en": "Local Roots, Global Reach",
+          "bn": "শিকড়ে অবিচল, আন্তর্জাতিক দৃষ্টি"
+        },
+        "description": {
+          "en": "Working proudly from Bangladesh while maintaining international technical standards.",
+          "bn": "নিজ এলাকা থেকে কাজ করেও বৈশ্বিক মান ও পেশাদারিত্ব বজায় রাখা।"
+        }
+      }
+    ]
+  },
+  "languages": {
+    "title": {
+      "en": "Languages & Communication",
+      "bn": "ভাষা ও যোগাযোগ"
+    },
+    "subtitle": {
+      "en": "Languages used daily for work, video production, and ongoing study.",
+      "bn": "কাজের প্রয়োজনে, ভিডিও নির্মাণে এবং ব্যক্তিগত পড়াশোনায় ব্যবহৃত ভাষা।"
+    },
+    "use": [
+      {
+        "name": {
+          "en": "Bengali (বাংলা)",
+          "bn": "বাংলা (Bengali)"
+        },
+        "proficiency": {
+          "en": "Native / First Language",
+          "bn": "মাতৃভাষা / প্রথম ভাষা"
+        },
+        "context": {
+          "en": "Primary language for video scripts, articles, and daily communication.",
+          "bn": "ভিডিও চিত্রনাট্য, প্রবন্ধ রচনা এবং দৈনন্দিন যোগাযোগের মূল ভাষা।"
+        }
+      },
+      {
+        "name": {
+          "en": "English",
+          "bn": "ইংরেজি (English)"
+        },
+        "proficiency": {
+          "en": "Professional & Technical Fluency",
+          "bn": "পেশাগত ও প্রযুক্তিগত সাবলীলতা"
+        },
+        "context": {
+          "en": "Technical documentation, code, software design, and international correspondence.",
+          "bn": "প্রযুক্তিগত ডকুমেন্টেশন, কোডিং, সফটওয়্যার ডিজাইন এবং পেশাগত যোগাযোগ।"
+        }
+      }
+    ],
+    "learning": [
+      {
+        "name": {
+          "en": "Arabic",
+          "bn": "আরবি (Arabic)"
+        },
+        "stage": {
+          "en": "Classical Textual Study",
+          "bn": "ধ্রুপদী পাঠ ও ব্যাকরণ"
+        },
+        "goal": {
+          "en": "Deepening comprehension of classical texts and Islamic literature.",
+          "bn": "ধ্রুপদী ধর্মীয় সাহিত্য ও আরবি রচনার স্পষ্ট অর্থ অনুধাবন।"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "title": {
+      "en": "Get in Touch",
+      "bn": "যোগাযোগ করুন"
+    },
+    "subtitle": {
+      "en": "Direct email and channels for projects, video collaborations, or inquiries.",
+      "bn": "যেকোনো প্রজেক্ট, ভিডিও কাজ বা আলোচনার জন্য সরাসরি ইমেইল ও মাধ্যম।"
+    },
+    "email": "mahmudulislami1234@gmail.com",
+    "location": {
+      "en": "Moulvibazar",
+      "bn": "মৌলভীবাজার"
+    },
+    "responseExpectation": {
+      "en": "I review genuine messages regularly and usually reply within 24–48 hours.",
+      "bn": "প্রয়োজনীয় ও সুনির্দিষ্ট বার্তার উত্তর আমি সাধারণত ২৪ থেকে ৪৮ ঘণ্টার মধ্যে দিয়ে থাকি।"
+    },
+    "youtubeUrl": "https://youtube.com/@tohaalmahmudi001?si=aaFI0H53C64bezQI",
+    "socials": [
+      {
+        "platform": "YouTube",
+        "label": {
+          "en": "YouTube Channel",
+          "bn": "ইউটিউব চ্যানেল"
+        },
+        "url": "https://youtube.com/@tohaalmahmudi001?si=aaFI0H53C64bezQI",
+        "handle": "@tohaalmahmudi001"
+      },
+      {
+        "platform": "Facebook",
+        "label": {
+          "en": "Facebook Profile",
+          "bn": "ফেসবুক প্রোফাইল"
+        },
+        "url": "https://www.facebook.com/share/1CHAFnnHDW/",
+        "handle": "Mahmudul Islam"
+      },
+      {
+        "platform": "WhatsApp",
+        "label": {
+          "en": "WhatsApp Contact",
+          "bn": "হোয়াটসঅ্যাপ যোগাযোগ"
+        },
+        "url": "https://wa.me/8801960381584",
+        "handle": "Mahmudul Islam"
+      },
+      {
+        "platform": "Email",
+        "label": {
+          "en": "Direct Email",
+          "bn": "সরাসরি ইমেইল"
+        },
+        "url": "mailto:mahmudulislami1234@gmail.com",
+        "handle": "mahmudulislami1234@gmail.com"
+      }
+    ]
+  }
+}
