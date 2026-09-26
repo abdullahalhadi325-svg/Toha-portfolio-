@@ -109,7 +109,7 @@ export function PortfolioProvider({ children }: { children: ReactNode }) {
   }, [data]);
 
   const login = useCallback((user: string, pass: string) => {
-    if (user === 'Mahmudul' && pass === 'Mahmudul@Mahmudul') {
+    if (user.trim().toLowerCase() === 'mahmudul' && pass.trim() === 'Mahmudul@Mahmudul') {
       sessionStorage.setItem(AUTH_STORAGE_KEY, 'true');
       setIsAuthenticated(true);
       setIsLoginOpen(false);
