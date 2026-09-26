@@ -21,6 +21,7 @@ export interface PortfolioContextType {
   setIsAuthenticated: (auth: boolean) => void;
   login: (user: string, pass: string) => { success: boolean; error?: string };
   logout: () => void;
+  updateCredentials: (newUser: string, newPass: string) => void;
 }
 
 const PortfolioContext = createContext<PortfolioContextType | undefined>(undefined);
@@ -108,8 +109,28 @@ export function PortfolioProvider({ children }: { children: ReactNode }) {
     }
   }, [data]);
 
+  const updateCredentials = useCallback((newUser: string, newPass: string) => {
+    localStorage.setItem('portfolio_cms_creds', JSON.stringify({ username: newUser, password: newPass }));
+  }, []);
+
   const login = useCallback((user: string, pass: string) => {
-    if (user.trim().toLowerCase() === 'mahmudul' && pass.trim() === 'Mahmudul@Mahmudul') {
+    const credsStr = localStorage.getItem('portfolio_cms_creds');
+    let validUser = 'mahmudul';
+    let validPass = 'Mahmudul@Mahmudul';
+
+    if (credsStr) {
+      try {
+        const creds = JSON.parse(credsStr);
+        if (creds.username && creds.password) {
+          validUser = creds.username.toLowerCase();
+          validPass = creds.password;
+        }
+      } catch (e) {
+        console.error('Failed to parse custom credentials', e);
+      }
+    }
+
+    if (user.trim().toLowerCase() === validUser && pass.trim() === validPass) {
       sessionStorage.setItem(AUTH_STORAGE_KEY, 'true');
       setIsAuthenticated(true);
       setIsLoginOpen(false);
@@ -143,6 +164,7 @@ export function PortfolioProvider({ children }: { children: ReactNode }) {
         setIsAuthenticated,
         login,
         logout,
+        updateCredentials,
       }}
     >
       {children}
@@ -169,6 +191,7 @@ export function usePortfolioData(): PortfolioContextType {
       setIsAuthenticated: () => {},
       login: () => ({ success: false, error: 'Provider not initialized' }),
       logout: () => {},
+      updateCredentials: () => {},
     };
   }
   return context;

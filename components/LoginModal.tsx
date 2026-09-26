@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { usePortfolioData } from '../hooks/usePortfolioData';
 import { useLanguage } from '../context/LanguageContext';
-import { Lock, X, KeyRound, ShieldAlert, ArrowRight } from 'lucide-react';
+import { Lock, X, KeyRound, ShieldAlert, ArrowRight, Eye, EyeOff } from 'lucide-react';
 
 export default function LoginModal() {
   const { isLoginOpen, setIsLoginOpen, login } = usePortfolioData();
@@ -12,6 +12,7 @@ export default function LoginModal() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   if (!isLoginOpen) return null;
 
@@ -92,14 +93,23 @@ export default function LoginModal() {
             <label className="block text-xs font-mono text-[#8F909A]">
               {isBengali ? 'পাসওয়ার্ড' : 'Password'}
             </label>
-            <input
-              type="password"
-              required
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder="••••••••••••••"
-              className="w-full px-4 py-2.5 rounded-xl bg-[#0A0A0C] border border-white/10 focus:border-[#C5A880] focus:outline-none text-sm text-[#EAEAEA] placeholder:text-[#5A5B64] font-mono transition-colors"
-            />
+            <div className="relative">
+              <input
+                type={showPassword ? 'text' : 'password'}
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="••••••••••••••"
+                className="w-full px-4 py-2.5 rounded-xl bg-[#0A0A0C] border border-white/10 focus:border-[#C5A880] focus:outline-none text-sm text-[#EAEAEA] placeholder:text-[#5A5B64] font-mono transition-colors pr-12"
+              />
+              <button
+                type="button"
+                onClick={() => setShowPassword(!showPassword)}
+                className="absolute inset-y-0 right-0 flex items-center pr-3.5 text-[#8F909A] hover:text-[#EAEAEA] transition-colors"
+              >
+                {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+              </button>
+            </div>
           </div>
 
           <div className="pt-2">

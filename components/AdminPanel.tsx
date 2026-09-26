@@ -27,6 +27,7 @@ import {
   Globe2,
   ExternalLink,
   Upload,
+  Shield,
 } from 'lucide-react';
 
 type SectionKey =
@@ -41,7 +42,8 @@ type SectionKey =
   | 'experience'
   | 'contact'
   | 'education'
-  | 'languages';
+  | 'languages'
+  | 'security';
 
 const SECTIONS: { id: SectionKey; label: string; icon: React.ReactNode }[] = [
   { id: 'hero', label: 'Hero Section', icon: <Sparkles className="w-4 h-4" /> },
@@ -56,6 +58,7 @@ const SECTIONS: { id: SectionKey; label: string; icon: React.ReactNode }[] = [
   { id: 'contact', label: 'Contact & Socials', icon: <Mail className="w-4 h-4" /> },
   { id: 'education', label: 'Education & Hifz', icon: <GraduationCap className="w-4 h-4" /> },
   { id: 'languages', label: 'Languages', icon: <Globe2 className="w-4 h-4" /> },
+  { id: 'security', label: 'Security & Access', icon: <Shield className="w-4 h-4" /> },
 ];
 
 export default function AdminPanel() {
@@ -67,6 +70,7 @@ export default function AdminPanel() {
     isAdminOpen,
     setIsAdminOpen,
     logout,
+    updateCredentials,
   } = usePortfolioData();
 
   // Local draft state of data being edited in the CMS
@@ -76,6 +80,9 @@ export default function AdminPanel() {
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
   const [isCompressingImage, setIsCompressingImage] = useState(false);
   const [imageUploadError, setImageUploadError] = useState<string | null>(null);
+
+  const [newUsername, setNewUsername] = useState('');
+  const [newPassword, setNewPassword] = useState('');
 
   // Task 1: Local Image Upload with Canvas Compression (Max 800px, 0.7 quality WebP/JPEG)
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -182,6 +189,17 @@ export default function AdminPanel() {
       }, 3500);
     } else {
       setStatusMessage('Failed to save to localStorage.');
+    }
+  };
+
+  const handleUpdateCredentials = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (newUsername.trim() && newPassword.trim()) {
+      updateCredentials(newUsername.trim(), newPassword.trim());
+      setStatusMessage('Credentials updated successfully!');
+      setNewUsername('');
+      setNewPassword('');
+      setTimeout(() => setStatusMessage(null), 3500);
     }
   };
 
@@ -1485,6 +1503,64 @@ export default function AdminPanel() {
                     </div>
                   </div>
                 ))}
+              </div>
+            </div>
+          )}
+
+          {/* SECTION 13: SECURITY & ACCESS */}
+          {activeSection === 'security' && (
+            <div className="space-y-6 max-w-4xl">
+              <div className="p-6 rounded-3xl bg-[#111115] border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.9)] space-y-6">
+                <div className="space-y-2">
+                  <h3 className="font-display font-bold text-lg tracking-wide text-[#EAEAEA] flex items-center gap-2">
+                    <Shield className="w-5 h-5 text-[#C5A880]" />
+                    Local CMS Credentials
+                  </h3>
+                  <p className="text-[11px] font-mono text-[#8F909A] leading-relaxed">
+                    Update the username and password required to access this admin panel. Since this is a zero-backend CMS, credentials are saved locally. Clearing browser data will restore the default login.
+                  </p>
+                </div>
+
+                <form onSubmit={handleUpdateCredentials} className="space-y-4">
+                  <div className="space-y-1.5">
+                    <label className="block text-xs font-mono text-[#8F909A]">
+                      New Username
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      value={newUsername}
+                      onChange={(e) => setNewUsername(e.target.value)}
+                      placeholder="e.g. admin"
+                      className="w-full px-4 py-2.5 rounded-xl bg-[#0A0A0C] border border-white/10 focus:border-[#C5A880] focus:outline-none text-sm text-[#EAEAEA] placeholder:text-[#5A5B64] font-mono transition-colors"
+                    />
+                  </div>
+
+                  <div className="space-y-1.5">
+                    <label className="block text-xs font-mono text-[#8F909A]">
+                      New Password
+                    </label>
+                    <input
+                      type="password"
+                      required
+                      value={newPassword}
+                      onChange={(e) => setNewPassword(e.target.value)}
+                      placeholder="••••••••"
+                      className="w-full px-4 py-2.5 rounded-xl bg-[#0A0A0C] border border-white/10 focus:border-[#C5A880] focus:outline-none text-sm text-[#EAEAEA] placeholder:text-[#5A5B64] font-mono transition-colors"
+                    />
+                  </div>
+
+                  <div className="pt-2">
+                    <button
+                      type="submit"
+                      disabled={!newUsername.trim() || !newPassword.trim()}
+                      className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#C5A880] hover:bg-[#D4B48F] disabled:opacity-50 text-[#0A0A0C] text-xs font-semibold uppercase tracking-wider transition-all duration-300 shadow-[0_8px_30px_rgb(0,0,0,0.8)] active:scale-95 cursor-pointer"
+                    >
+                      <Save className="w-3.5 h-3.5" />
+                      <span>Update Credentials</span>
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           )}
